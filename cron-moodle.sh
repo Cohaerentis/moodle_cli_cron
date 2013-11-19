@@ -43,7 +43,7 @@ log_end_print() {
    $ECHO_BIN >> $CRON_LOG_FILE;
    $ECHO_BIN "----------------------------------------------------------------" >> $CRON_LOG_FILE;
    $ECHO_BIN -n "MOODLE CRON END   - " >> $CRON_LOG_FILE;
-   $ECHO_BIN $BAK_END_DATE >> $CRON_LOG_FILE;
+   $ECHO_BIN $CRON_END_DATE >> $CRON_LOG_FILE;
    $ECHO_BIN "----------------------------------------------------------------" >> $CRON_LOG_FILE;
 }
 
